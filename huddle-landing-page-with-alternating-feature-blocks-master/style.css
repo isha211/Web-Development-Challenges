@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding: 30px;
+    color: hsl(192, 100%, 9%);
+}
+.header{
+    background:url(images/bg-hero-desktop.svg),hsl(193, 100%, 96%);
+}
+.name{
+    height: 100px;
+    width: 100%;
+}
+.btn-white{
+    font-weight: 700;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    float: right;
+    text-decoration: none;
+    background-color:white;
+    color: hsl(192, 100%, 9%);
+    padding: 12px 55px;
+    border-radius: 20px;
+    margin:5px 10px;
+}
+.header-sub{
+    display: flex;
+    padding: 50px 10px;
+    justify-content: space-around;
+}
+.title{
+    width: 40%;
+}
+.title-main{
+    width: 90%;
+    word-spacing: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    line-height: 1.2em;
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+}
+.title-sub{
+    width: 80%;
+    font-size: 1.1em;
+    padding: 20px 0px;
+}
+.btn-pink{
+    text-decoration: none;
+    background-color:hsl(322, 100%, 66%);
+    color:  hsl(193, 100%, 96%);
+    padding: 12px 60px;
+    border-radius: 30px;
+    font-weight: 700;
+    margin: 30px 10px 20px 10px;
+    display: inline-block;
+}
+.header-img{
+    width: 40%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 50px auto;
+}
+.block{
+    width: 90%;
+    border:4px solid rgba(0, 0, 0, 0.03);
+    margin:30px 60px;
+    display: flex;
+    align-items: center;
+    padding:20px 0px 20px 0px;
+    border-radius: 10px;
+}
+.text-info{
+    margin-left: 50px;
+}
+.text-main{
+    font-weight: 700;
+    font-size: 1.7em;
+    font-family: 'Poppins', sans-serif;
+    margin: 25px 0px;
+}
+.text-sub{
+    width: 75%;
+}
+.overlap{
+    position: relative;
+    height: auto;
+}
+.front-block{
+    position: absolute;
+    width: 35vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border:4px solid rgba(0, 0, 0, 0.03);
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    z-index: 2;
+    opacity: 1; 
+    background-color: white;
+    top: 100px;
+    left: 30vw;
+}
+.front-block-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-top:50px;
+}
+.footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    position: absolute;
+    padding: 80px 50px;
+    width: 100%;
+    z-index: 1;
+    clear: both;
+    top: 250px;
+    left: 20px;
+    min-height: 500px;
+}
+.columns{
+    display: flex;
+    margin:30px auto 0 auto;
+}
+.block1{
+    width: 20%;
+    padding: 30px;
+}
+.big-block{
+    width: 40%;
+}
+.sub-block{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+.footer img{
+    width:5%;
+    padding-right: 10px;
+}
+.footer a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color:#fff;
+}
+.footer p{
+    width: 70%;
+}
+.social-media{
+    height: 5%;
+}
+ion-icon{
+    padding: 0px 3px;
+}
+.copyright{
+    float: right;
+}
+@media (max-width:1500px){
+    .logo{
+        max-width: 40%;
+    }
+    .btn-white{
+        max-width:50%;
+        font-size: 0.8em;
+    }
+    .btn-pink{
+        font-size: 0.8em;
+        margin: 20px 0px 40px 0px;
+    }
+    .header-sub{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .title,.header-img{
+        width: 100%;
+        text-align: center;
+    }
+    .main{
+        width: 100%;
+        margin: 50px auto;
+    }
+    .text-info{
+        margin: 0;
+        
+    }
+    .text-main,.text-sub{
+        text-align: center;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .title-main,.title-sub{
+        width: 100%;
+        margin: auto;
+    }
+    .title-main{
+        font-size: 1.7em;
+    }
+    .block{
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    #reverse{
+        flex-direction: column;
+    }
+    .image{
+        width: 80%;
+    }
+    .columns{
+        flex-direction: column;
+    }
+    .footer{
+        height: auto;
+        width: 100%;
+    }
+    .front-block{
+        width: 60vw;
+        font-size: 0.9em;
+        max-height: 300px;
+        padding:0;
+        left: 15vw;
+    }
+    .front-block-text{
+        width: 100%;
+    }
+    .block1{
+        width: 90vw;
+    }
+    .sub-block img{
+        width: 10%;
+    }
+}

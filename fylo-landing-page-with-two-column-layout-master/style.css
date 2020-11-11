@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+    font-size: 16px;
+    line-height: 1.6em;
+    color:hsl(243, 87%, 12%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.navigation{
+    margin: 20px 20px 30px 20px;
+}
+.navigation ul{
+    float: right;
+}
+.navigation li{
+    display: inline-block;
+    list-style: none;
+    max-width: 200px;
+}
+.navigation a{
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    font-size: 1.3em;
+    padding-left: 60px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 30px auto;
+}
+.block{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    align-items: center;
+}
+#bg-block{
+    background-image: url(images/bg-curve-desktop.svg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+}
+.text{
+    width: 45%;
+    padding-right: 4%;
+    padding-left: 2%;
+}
+.text-image{
+    width: 45%;
+    padding-right: 2%;
+}
+.text-main{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin-bottom: 30px;
+}
+.text-sub{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.text input{
+    height: 50px;
+    width: 50%;
+    margin-right: 30px ;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.btn-blue{
+    text-decoration: none;
+    color:#fff;
+    background-color: hsl(224, 93%, 58%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    width: 35%;
+    margin-bottom: 0px;
+    padding: 7px 10px 7px 10px;
+    text-align: center;
+    height: 45px;
+    border-radius: 5px;
+}
+.green-link{
+    text-decoration: none;
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+    color: hsl(170, 45%, 43%);
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+.text a span img{
+    display: inline-block;
+    margin-left: 5px;
+    height: 25px;
+}
+.card{
+    background-color: #fff;
+    width: 65%;
+    margin: 30px 0px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+#quote-image{
+    height: 25px;
+    float: left;
+    margin-left: 1%;
+}
+.card-text{
+    font-size: 1.1em;
+    line-height: 1.8em;
+    margin: 30px 0px;
+}
+.personal-info{
+    display: flex;
+}
+#avatar{
+    border-radius: 60px;
+    height: 80px;
+}
+.info-text{
+    padding-left: 30px;
+}
+.name{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+.violet-block{
+    width: 95%;
+    margin:30px auto 0px auto;
+    display: flex;
+    background-color: hsl(238, 22%, 44%);
+    padding: 60px;
+}
+.block-text{
+    width: 50%;
+    color: #fff;
+    padding: 10px 30px;
+}
+.heading{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.sub-heading{
+    width: 80%;
+    font-size: 1.2em;
+}
+.form-vertical{
+    width: 50%;
+    padding: 10px 30px;
+}
+.form-vertical input{
+    display: block;
+    height: 50px;
+    width: 70%;
+    margin-right: 30px ;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.btn-blue-vertical{
+    text-decoration: none;
+    color:#fff;
+    background-color: hsl(224, 93%, 58%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    display: block;
+    width: 35%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.footer{
+    width: 95%;
+    margin:0px auto 30px auto;
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+    padding: 60px;
+}
+.columns{
+    display: flex;
+    justify-content: space-evenly;
+}
+.block1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0px;
+}
+.big-block{
+    width: 30%;
+}
+.sub-block{
+    display: flex;
+    margin: 20px 0px;
+    align-items: baseline;
+}
+.sub-block img{
+    margin-right: 7px;
+}
+.logos{
+    width: 20%;
+}
+ion-icon{
+    font-size: 1.5em;
+    margin: 20px 0px;
+}
+@media (max-width:1500px){
+    body{
+        padding: 10px;
+    }
+    .logo{
+        max-width: 100px;
+    }
+    .navigation a{
+        padding-left: 10px;
+        font-size: 1.1em;
+    }
+    .block{
+        flex-direction: column-reverse;
+    }
+    .text,.text-image{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .text{
+        text-align: center;
+    }
+    .text-main{
+        font-size: 2em;
+    }
+    .text-sub{
+        font-size: 1em;
+    }
+    .text input{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .btn-blue{
+        display: block;
+        width: 90%;
+        margin: 20px auto;
+    }
+    #bg-block{
+        background-image: url(images/bg-curve-mobile.svg);
+        padding-top: 120px;
+    }
+    .card{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .card-text{
+        clear: both;
+        margin: 12% 0px 10% 0px;
+        text-align: left;
+        padding: 0 2%;
+    }
+    .violet-block{
+        flex-direction: column;
+    }
+    .block-text,.form-vertical{
+        width: 100%;
+        padding: 0;
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .heading{
+        font-size: 1.4em;
+    }
+    .sub-heading{
+        width: 100%;
+        font-size: 0.9em;
+    }
+    .form-vertical{
+        width: 100%;
+    }
+    .form-vertical input, .btn-blue-vertical{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .columns{
+        flex-direction: column;
+    }
+    .big-block{
+        width: 100%;
+        margin: 15px;
+    }
+    .block1{
+        width: 100%;
+        margin: 15px;
+    }
+    .logos{
+        width: 40%;
+        margin:25px auto 5px auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

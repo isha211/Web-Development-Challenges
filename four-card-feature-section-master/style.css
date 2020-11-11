@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    line-height:1.7em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding:30px;
+    color: hsl(229, 6%, 66%);
+}
+.header{
+    width: 90vw;
+    margin: auto;
+}
+.text-main{
+    font-weight: 300;
+    color: hsl(234, 12%, 34%);
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.text-sub{
+    color: hsl(234, 12%, 34%);
+    padding-bottom: 20px;
+    text-align: center;
+}
+.tagline{
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+.main{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 85vw;
+    margin: auto;
+}
+.card{
+    width: 25vw;
+    padding: 20px;
+    height: 250px;
+    margin: 30px;
+    border-radius: 10px;
+    height: auto;
+}
+.card-title{
+    color: hsl(234, 12%, 34%);
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.text{
+    width: 70%;
+}
+
+#card1{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-left: 5px solid hsl(0,0%,98%);
+    border-right: 5px solid hsl(0,0%,98%);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+#card2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    border-left: 5px solid hsl(0,0%,98%);
+    border-right: 5px solid hsl(0,0%,98%);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+#card3{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    border-left: 5px solid hsl(0,0%,98%);
+    border-right: 5px solid hsl(0,0%,98%);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+#card4{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    border-left: 5px solid hsl(0,0%,98%);
+    border-right: 5px solid hsl(0,0%,98%);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+
+.image{
+    padding-top: 20px;
+    margin-left: 60%;
+}
+@media (max-width:800px){
+    .main{
+        flex-direction: column;
+    }
+    .card{
+        width: 70vw;
+        height: auto;
+    }
+}
